@@ -19,7 +19,7 @@ h1 {
     margin-top: .5em;
     display: inline-block;
     color: white;
-    font-size: 5em;
+    font-size: 4em;
 
 }
 body {
@@ -49,7 +49,7 @@ table {
 
 }
 .table-body {
-    font-size: 1.3em;
+    font-size: 1.4rem;
     text-decoration: none;
 }
 .index {

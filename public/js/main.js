@@ -3,7 +3,7 @@ $(document).ready(function () {
   /***************Table************************** */
 
 
-  $.getJSON("data.json", function (data) {
+  $.getJSON("./files/data.json", function (data) {
 
     $.each(data, function (index, item) {
       var tableRow = document.createElement('tr');
@@ -86,7 +86,7 @@ $(document).ready(function () {
     setTimeout(function() {
     /*************************** Markers *************************/
     var sanDiego = {
-      zoom: 15,
+      zoom: 13,
       center: { lat: 32.7157, lng: -117.1611 }
     };
 

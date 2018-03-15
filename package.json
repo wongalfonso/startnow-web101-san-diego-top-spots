@@ -2,15 +2,21 @@
     "name": "san-diego-top-spots",
     "version": "0.1.0",
     "scripts": {
+        "start": "node server/index.js",
         "test": "mocha"
     },
     "dependencies": {
         "chai": "^4.0.2",
+        "dotenv": "^5.0.1",
+        "ejs": "^2.5.7",
         "express": "^4.15.3",
         "jquery": "^3.2.1",
         "lodash": "^4.17.4",
         "mocha": "^3.2.0",
-        "morgan": "^1.8.2",
         "nightmare": "^2.10.0"
+    },
+    "devDependencies": {
+        "morgan": "^1.9.0",
+        "nodemon": "^1.17.2"
     }
 }
